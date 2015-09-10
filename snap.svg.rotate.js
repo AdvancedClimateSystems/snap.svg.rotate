@@ -1,6 +1,6 @@
-'use strict';
-
 Snap.plugin(function(Snap, Element) {
+    'use strict';
+
     /**
      * Rotates a given Snap.Element the given amount of degrees. The amount of
      * degrees can be a negative or positive number, depending on which way you
@@ -19,5 +19,7 @@ Snap.plugin(function(Snap, Element) {
         matrix.add(this.transform().localMatrix);
 
         this.transform(matrix);
+
+        eve('snap.rotated.' + this.id, this);
     };
 });
