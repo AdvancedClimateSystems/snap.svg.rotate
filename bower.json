@@ -1,7 +1,7 @@
 {
   "name": "snap.svg.rotate",
   "main": "snap.svg.rotate.js",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/AdvancedClimateSystems/snap.svg.rotate",
   "authors": [
     "Jaap Broekhuizen <jaapz.b@gmail.com>"
