@@ -27,7 +27,11 @@ An event is emitted after rotating the element, which can be used like this:
 
 ## Installing
 
-You can install this by using bower:
+Our preferred method of installing this is through `npm`:
+
+    npm install snap.svg.rotate
+
+Although you can also install this by using `bower`:
 
     bower install snap.svg.rotate
 

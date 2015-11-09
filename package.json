@@ -1,0 +1,21 @@
+{
+  "name": "snap.svg.rotate",
+  "version": "0.3.0",
+  "description": "Adds a rotate method to Snap.Elements.",
+  "main": "snap.svg.rotate.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdvancedClimateSystems/snap.svg.rotate.git"
+  },
+  "keywords": [
+    "snap.svg",
+    "snapsvg",
+    "rotate"
+  ],
+  "author": "Jaap Broekhuizen <jaapz.b@gmail.com> (http://jaapz.nl)",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/AdvancedClimateSystems/snap.svg.rotate/issues"
+  },
+  "homepage": "https://github.com/AdvancedClimateSystems/snap.svg.rotate#readme"
+}
