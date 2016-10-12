@@ -1,4 +1,4 @@
-Snap.plugin(function(Snap, Element) {
+Snap.plugin(function(Snap, Element, Paper) {
     'use strict';
 
     /**
@@ -11,7 +11,7 @@ Snap.plugin(function(Snap, Element) {
      * @public
      * @param {Integer} degrees
      */
-    Element.prototype.rotate = function(degrees) {
+    Paper.prototype.rotate = Element.prototype.rotate = function(degrees) {
         var bbox = this.getBBox();
 
         var matrix = new Snap.Matrix();
